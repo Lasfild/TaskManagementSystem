@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решен
 		ReadMe.txt = ReadMe.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagementSystem.Tests", "TaskManagementSystem.Tests\TaskManagementSystem.Tests.csproj", "{EA1E4E41-3446-4A6E-9E5C-6D358C939E5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{581FF393-715B-4861-9DC3-3C618D1465F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{581FF393-715B-4861-9DC3-3C618D1465F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{581FF393-715B-4861-9DC3-3C618D1465F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA1E4E41-3446-4A6E-9E5C-6D358C939E5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1E4E41-3446-4A6E-9E5C-6D358C939E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1E4E41-3446-4A6E-9E5C-6D358C939E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1E4E41-3446-4A6E-9E5C-6D358C939E5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
