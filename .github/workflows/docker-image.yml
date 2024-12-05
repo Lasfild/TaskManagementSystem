@@ -45,12 +45,12 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build Docker Image for App
-      run: docker build -t username/myapp:${{ github.sha }} -f Dockerfile .
-
+      run: docker build -t your-dockerhub-username/myapp:${{ github.sha }} -f Dockerfile .
+    
     - name: Tag Docker Image
-      run: docker tag username/myapp:${{ github.sha }} username/myapp:latest
-
+      run: docker tag your-dockerhub-username/myapp:${{ github.sha }} your-dockerhub-username/myapp:latest
+    
     - name: Push Docker Image to DockerHub
       run: |
-        docker push username/myapp:${{ github.sha }}
-        docker push username/myapp:latest
+        docker push your-dockerhub-username/myapp:${{ github.sha }}
+        docker push your-dockerhub-username/myapp:latest
